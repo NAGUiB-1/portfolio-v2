@@ -91,7 +91,7 @@ const Hero = () => {
               ]}
             />
           </div>
-          <a href="/cv.pdf" className="text-3xl font-['Anton']  uppercase">
+          <a href="/cv.pdf" className="text-3xl font-['Anton']  uppercase" download target="_blank">
             Download Cv ?
           </a>
           <div className="md:text-2xl text-xl font-extrabold flex gap-4 ">
