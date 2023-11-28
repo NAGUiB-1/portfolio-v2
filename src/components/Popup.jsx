@@ -89,7 +89,7 @@ const Popup = ({ show, setShow, data }) => {
           </div>
           <p>
             Link :{" "}
-            <a href={data.link} className="underline">
+            <a href={data.link} target="_blank className="underline">
               {data.title}
             </a>
           </p>
