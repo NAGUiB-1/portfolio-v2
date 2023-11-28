@@ -37,7 +37,7 @@ const Hero = () => {
     });
 
     function move() {
-      interv = setInterval(frame, 60);
+      interv = setInterval(frame, 40);
     }
     function frame() {
       if (width >= 100) {
@@ -91,7 +91,11 @@ const Hero = () => {
               ]}
             />
           </div>
-          <a href="/cv.pdf" className="text-3xl font-['Anton']  uppercase" download target="_blank">
+          <a
+            href="/cv.pdf"
+            className="text-3xl font-['Anton']  uppercase"
+            download
+          >
             Download Cv ?
           </a>
           <div className="md:text-2xl text-xl font-extrabold flex gap-4 ">

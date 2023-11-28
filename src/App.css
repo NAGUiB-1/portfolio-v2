@@ -59,9 +59,6 @@
   width: fit-content;
   height: fit;
 }
-.slider > div:nth-child(even) {
-  transform: translateY(100px);
-}
 
 .img-item {
   clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);

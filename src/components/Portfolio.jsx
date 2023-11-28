@@ -43,7 +43,7 @@ const Portfolio = () => {
         );
         tl.to(
           imgBlock,
-          1.5,
+          1,
           {
             clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
             ease: "expo.out",
@@ -68,13 +68,13 @@ const Portfolio = () => {
   return (
     <div className="pt-20 mb-40" ref={component} id="portfolio">
       <h3
-        className="font-['Black_Ops_One']  md:text-6xl text-4xl uppercase z-[100] w-screen "
+        className="font-['Black_Ops_One']  md:text-6xl text-4xl uppercase z-[100] w-screen mb-10"
         ref={h3}
       >
         My Works
       </h3>
       <div
-        className="  gap-8 grid grid-cols-1 md:grid-cols-2 my-10 slider"
+        className="  md:gap-14 gap-8 grid grid-cols-1 md:grid-cols-2 md:my-5  slider"
         ref={slider}
       >
         {data.map((el, i) => (

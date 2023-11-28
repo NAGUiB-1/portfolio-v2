@@ -15,11 +15,12 @@ const EachProject2 = ({ data, number, all }) => {
     <>
       <Popup data={data} show={show} setShow={setShow} />
       <div
-        className="w-full max-w-[700px] relative eachproject group flex translate-x-2 flex-row justify-start item-container "
+        className="w-full max-w-[700px] relative eachproject group flex  flex-row justify-start item-container"
         onClick={() => setShow(!show)}
         ref={component}
+        id="item-container"
       >
-        <div className=" rotateText text-4xl text-white font-['Black_Ops_One'] h-fit item-text">
+        <div className=" rotateText md:text-4xl text-3xl text-white font-['Black_Ops_One'] h-fit item-text mt-2">
           <span>#{number}</span> / <span>{all}</span>
         </div>
         <div className=" w-[300px] md:w-[600px] bg-gray-900 overflow-hidden cursor-pointer rounded-2xl  relative filt inner ">
