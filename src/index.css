@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Permanent+Marker&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  min-width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(28, 28, 28);
+  background: radial-gradient(
+    circle,
+    rgba(28, 28, 28, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: #fff;
+  min-width: 100vw;
+  overflow-x: hidden;
+  scroll-timeline-name: --squareTimeline;
+}
+.glass {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.rotate-anim {
+  animation: rotate 200s linear infinite both;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(3100deg);
+  }
+}
+ul > li {
+  cursor: pointer;
+}
+.item {
+  cursor: pointer;
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.nav {
+  transform: translateY(-100vh);
+}
+
+.trans-el {
+  transition: all 0.4s ease-in-out;
+}
+
+.wrapper span {
+  animation: slide 0.4s forwards;
+}
+@keyframes slide {
+  from {
+    transform: translate(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(10px);
+    opacity: 1;
+  }
+}
+.split {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.split div span span:hover {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  color: #2d2d2d;
+}
+.iconAnimate {
+}
+@keyframes icons {
+  from {
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
+  }
+}
+
+.borderB {
+  border-bottom: 2px solid red;
+}
+.eachProject:nth-child(even) {
+  margin-top: 6rem;
+}
+
+.filt {
+  filter: brightness(50%) contrast(101%) invert(1%);
+}

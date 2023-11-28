@@ -1,0 +1,16 @@
+<svg width="64" height="60" viewBox="0 0 64 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="57.6143" cy="24.0128" rx="5.88568" ry="6.04792" fill="#fff" />
+    <ellipse cx="32.1213" cy="53.5008" rx="5.88568" ry="6.04792" fill="#fff" />
+    <ellipse cx="56.6392" cy="48.5623" rx="6.86082" ry="7.04994" fill="#fff" />
+    <ellipse cx="32.8875" cy="30.0248" rx="6.86082" ry="7.04994" fill="#fff" />
+    <ellipse cx="8.2829" cy="8.17107" rx="8.2829" ry="8.17107"
+        transform="matrix(0.489839 0.871813 -0.860038 0.51023 14.5549 17.7144)" fill="#fff" />
+    <ellipse cx="8.2829" cy="8.17107" rx="8.2829" ry="8.17107"
+        transform="matrix(0.489839 0.871813 -0.860038 0.51023 44.4139 0)" fill="#fff" />
+    <rect width="2.13294" height="22.7948" transform="matrix(0.489839 0.871813 -0.860038 0.51023 36.2639 13.2649)"
+        fill="#fff" />
+    <rect x="31.3899" y="31.85" width="1.53224" height="17.3207" fill="#fff" />
+    <rect x="56.8134" y="28.1998" width="1.53224" height="19.6826" fill="#fff" />
+    <rect width="1.55363" height="24.4802" transform="matrix(0.697429 -0.716654 0.697429 0.716654 35.5149 29.9016)"
+        fill="#fff" />
+</svg>
