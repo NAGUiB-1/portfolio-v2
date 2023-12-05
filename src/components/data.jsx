@@ -59,7 +59,7 @@ export let data = [
   },
   {
     title: "Recipes",
-    link: "https://en-11.netlify.app/",
+    link: "https://in-recipe.vercel.app/",
     img: recipe,
     tech: ["react", "styled-components", "react-router-dom"],
   },
